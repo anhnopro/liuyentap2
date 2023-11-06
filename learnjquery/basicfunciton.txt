@@ -1,0 +1,44 @@
+Chọn phần tử:
+
+$(selector): Chọn phần tử HTML dựa trên trình chọn CSS. Ví dụ: $('#myId'), $('.myClass'), $('p').
+Thao tác với nội dung:
+
+text(): Lấy hoặc thiết lập nội dung văn bản của phần tử.
+html(): Lấy hoặc thiết lập nội dung HTML của phần tử.
+Thao tác với thuộc tính:
+
+attr(name): Lấy giá trị của thuộc tính được chỉ định.
+attr(name, value): Thiết lập giá trị của thuộc tính được chỉ định.
+addClass(className): Thêm một lớp (class) vào phần tử.
+removeClass(className): Loại bỏ một lớp (class) khỏi phần tử.
+toggleClass(className): Chuyển đổi trạng thái lớp (class) của phần tử.
+Thao tác với CSS:
+
+css(propertyName): Lấy giá trị của thuộc tính CSS được chỉ định.
+css(propertyName, value): Thiết lập giá trị của thuộc tính CSS được chỉ định.
+Xử lý sự kiện:
+
+click(handler): Gắn sự kiện click cho phần tử.
+hover(handlerIn, handlerOut): Gắn sự kiện hover (mouseover và mouseout) cho phần tử.
+on(event, handler): Gắn bất kỳ sự kiện nào cho phần tử.
+Ajax:
+
+$.ajax(options): Gửi yêu cầu AJAX đến máy chủ và xử lý dữ liệu từ máy chủ.
+Thao tác với DOM:
+
+append(content): Thêm nội dung vào cuối phần tử.
+prepend(content): Thêm nội dung vào đầu phần tử.
+remove(): Loại bỏ phần tử khỏi trang.
+Chuyển đổi và xử lý số liệu:
+
+parseInt(string): Chuyển đổi một chuỗi thành một số nguyên.
+parseFloat(string): Chuyển đổi một chuỗi thành một số thập phân.
+Lấy thông tin về phần tử:
+
+width(): Lấy chiều rộng của phần tử.
+height(): Lấy chiều cao của phần tử.
+Kiểm tra lớp và thuộc tính:
+
+hasClass(className): Kiểm tra xem phần tử có lớp (class) được chỉ định không.
+prop(propertyName): Lấy giá trị của thuộc tính được chỉ định.
+Đây chỉ là một số ví dụ cơ bản, jQuery cung cấp nhiều hàm và phương thức khác cho việc tương tác với trang web và các phần tử HTML. Cụ thể, việc sử dụng các hàm và phương thức này phụ thuộc vào yêu cầu cụ thể của dự án của bạn.
